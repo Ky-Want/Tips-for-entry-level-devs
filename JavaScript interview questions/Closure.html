@@ -1,0 +1,21 @@
+<!--
+Question: What is Closure?
+
+Answer: A closure in JavaScript is a function inside another function. The inner functions has access to its own variables, the variables defined in the outer function as well as the global variables.
+
+Example:
+let a = 2;
+function outer()
+{
+  let b = 4;
+  function inner()
+  {
+    let c = 6;
+    console.log(a + b + c);
+  }
+  inner();
+}
+outer();
+
+Additional Information: 
+-->
